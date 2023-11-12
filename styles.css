@@ -1,0 +1,74 @@
+body{
+   
+    width:100%;
+    height:100%;
+    background-color: rgb(116, 221, 195);
+}
+.border{
+    padding:5%;
+    margin:5% 15%;
+    border:1px solid white;
+    border-radius: 1vh;
+    background-color:white;
+}
+header{
+    margin: 5% 10%;
+    text-align: center;
+}
+header  {
+    font-size: larger;
+}
+main{
+    margin: 5% 10%;
+    margin:0 auto;
+}
+form{
+    
+    margin:0 auto;
+    font-size: large; 
+}
+.form-item{
+    margin:5%;
+}
+input{
+    width:100%;
+    margin:2%;
+    padding:2%;
+    border:none;
+    border-bottom:0.1vh solid black;
+}
+.form-item .radio{
+    margin-bottom: 0.5rem;
+    display: flex;
+    padding-right: 90%;
+    
+}
+select{
+    padding:0.3%;
+}
+option{
+    font-size: medium;
+    text-decoration: none;
+}
+textarea{
+    width:100%;
+    height:5vh;
+    font-size: large;
+    margin-top: 2%;
+}
+button{
+    width:30%;
+    height: 4vh;
+    margin-left:35%;
+    border-radius: 2vh;
+    border: none;
+    background-color:rgb(116, 221, 195);
+    font-size: x-large;
+}
+button:hover{
+    background-color:rgb(169, 233, 217) ;
+    transition: 1s;
+}
+
+
+

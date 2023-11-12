@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, inline-scale=1.0">
+        <link rel="stylesheet" href="styles.css">    
+    </head>
+    <body>
+        <section class="border">
+            <header>
+                <h1 id="title">NHS Survey Form</h1>
+                <p id="description">This survey form is about your most recent Health and Social Care visit.<br>Thank you for taking this survey.</p>
+            </header>
+            <hr>
+            <main>
+                <form id="survey-form">
+                    <div class="form-item">
+                        <label id="name-label" for="full-name">Enter your full name: <input id="full-name" type="text" placeholder="Enter your full name" required/></label>
+                    </div>
+                    <div class="form-item">
+                        <label id="email-label" for="age">Enter yout age: <input id="age" type="number" min="16" max="100" placeholder="Enter your age"  required/></label>
+                    </div>
+                    <div class="form-item">
+                        <label id="number-label" for="email">Enter your email: <input id="email" type="email" placeholder="Enter your email" required/></label>
+                    </div>
+                    <div class="form-item">
+                        <p>Have you visited the GP in the past year?</p>
+                        <label class="radio"><input name="choice" type="radio" value="yes" class='yes' checked/>Yes</label>
+                        <label class="radio"><input name="choice" type="radio" value="no" class="no" />No</label>   
+                    </div>
+                    <div class="form-item">  
+                        <label for="dropdown">
+                            Do you have any of the following:   
+                            <select id="dropdown">
+                                <option disabled selected value>select one of the following</option>
+                                <option>To get a vaccine</option>
+                                <option>Skin disorders</option>
+                                <option>Cholesterol issues</option>
+                                <option>Respiratory issues</option>
+                                <option>To get a physical exam and health assessment</option>
+                                <option>To treat chronic illnesses</option>
+                                <option>Mental health issues</option>
+                                <option>High Blood pressure</option>
+                                <option>Other</option>
+                            </select>
+                        </label>
+                    </div> 
+                    <div class="form-item">
+                        <label>
+                            If other please state why you wen to the GP:
+                            <textarea placeholder="I wen to the GP because . . ."></textarea>
+                        </label>
+                    </div>
+                    <div class="form-item" >
+                        <button class="submit">Submit</button>
+                    </div>
+                </form>
+            </main>
+            <footer>
+
+            </footer>
+        </section>
+    </body>
+</html>
